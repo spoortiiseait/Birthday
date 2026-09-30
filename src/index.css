@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: linear-gradient(135deg, #FFF7ED 0%, #FFE4E6 45%, #E9D5FF 85%, #FFDAB9 100%);
+    color: #4A3E3D;
+    overflow-x: hidden;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+  }
+}
+
+/* Gold Glitter Cursive Text Gradient */
+.gold-glitter-text {
+  background: linear-gradient(135deg, #B38728 0%, #D4AF37 25%, #F5CB4A 50%, #D4AF37 75%, #8C6718 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 4px rgba(212, 175, 55, 0.25));
+}
+
+.pink-glow-text {
+  background: linear-gradient(135deg, #E11D48 0%, #FB7185 45%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Bright Romantic White Card with Soft Pink Shadows */
+.romantic-pink-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(254, 205, 211, 0.8);
+  box-shadow: 0 12px 35px -5px rgba(244, 63, 94, 0.12), 0 4px 14px -2px rgba(251, 113, 133, 0.08);
+}
+
+.romantic-pink-card-hover {
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.romantic-pink-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -5px rgba(244, 63, 94, 0.18), 0 8px 18px -4px rgba(212, 175, 55, 0.14);
+}
+
+/* Polaroid White Frames with Soft Pink Shadows */
+.polaroid-white-card {
+  background: #ffffff;
+  border: 1px solid rgba(254, 205, 211, 0.85);
+  box-shadow: 0 10px 25px rgba(244, 63, 94, 0.12), 0 3px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Washi Tape / Tape Effects (Pastel yellow / rose) */
+.polaroid-tape {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-1deg);
+  width: 70px;
+  height: 22px;
+  background-color: rgba(254, 240, 138, 0.7);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(2px);
+  z-index: 10;
+}
+
+.polaroid-tape-tilted-left {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  transform: rotate(-6deg);
+  width: 60px;
+  height: 20px;
+  background-color: rgba(254, 205, 211, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+}
+
+.polaroid-tape-tilted-right {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  transform: rotate(6deg);
+  width: 60px;
+  height: 20px;
+  background-color: rgba(253, 230, 138, 0.75);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+}
+
+/* Push pin */
+.push-pin {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #F43F5E, #BE123C);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2), inset 0 1px 2px rgba(255,255,255,0.6);
+  z-index: 15;
+}
+
+/* Vintage Gold Frame */
+.vintage-gold-frame {
+  border: 4px solid #D4AF37;
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.25);
+}
+
+/* Filmstrip Style */
+.filmstrip-border-pink {
+  background-color: #372E2B;
+  padding: 14px 10px;
+  position: relative;
+  border: 1px solid rgba(251, 113, 133, 0.4);
+}
+.filmstrip-border-pink::before,
+.filmstrip-border-pink::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: repeating-linear-gradient(
+    90deg,
+    #ffffff 0px,
+    #ffffff 8px,
+    transparent 8px,
+    transparent 16px
+  );
+}
+.filmstrip-border-pink::before {
+  top: 4px;
+}
+.filmstrip-border-pink::after {
+  bottom: 4px;
+}
+
+/* Candle flame animations */
+@keyframes flameFlicker {
+  0% { transform: scale(1) rotate(-1deg); opacity: 0.95; }
+  25% { transform: scale(1.06, 0.96) rotate(2deg); opacity: 1; }
+  50% { transform: scale(0.96, 1.04) rotate(-2deg); opacity: 0.9; }
+  75% { transform: scale(1.04, 1.01) rotate(1deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 0.95; }
+}
+
+.flame-active {
+  animation: flameFlicker 0.9s infinite alternate ease-in-out;
+  filter: drop-shadow(0 0 10px #FB923C) drop-shadow(0 0 20px #F97316);
+}
+
+@keyframes smokeRise {
+  0% {
+    opacity: 0.7;
+    transform: translateY(0) scale(1) translateX(0);
+  }
+  50% {
+    opacity: 0.4;
+    transform: translateY(-25px) scale(1.5) translateX(6px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px) scale(2.2) translateX(-8px);
+  }
+}
+
+.candle-smoke {
+  animation: smokeRise 1.6s ease-out forwards;
+}
+
+/* Wax seal */
+.wax-seal {
+  background: radial-gradient(circle at 35% 35%, #F43F5E, #BE123C, #881337);
+  box-shadow: 0 4px 14px rgba(225, 29, 72, 0.35), inset 0 2px 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Floating Petals / Hearts */
+@keyframes floatPetal {
+  0% {
+    transform: translateY(0) rotate(0deg) translateX(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-40px) rotate(180deg) translateX(15px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px) rotate(360deg) translateX(-15px);
+    opacity: 0;
+  }
+}
+
+.petal-floating {
+  animation: floatPetal 6s ease-in-out infinite;
+}
+
+/* Custom Scrollbar for Pink Theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF7ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #FDA4AF;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FB7185;
+}
