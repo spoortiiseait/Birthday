@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import FloatingPetalsBackground from './components/FloatingPetalsBackground';
 import Footer from './components/Footer';
@@ -28,7 +28,7 @@ export default function App() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <div className="relative min-h-screen bg-gradient-to-br from-[#FFF7ED] via-[#FFE4E6]/50 to-[#E9D5FF]/40 text-slate-800 overflow-x-hidden selection:bg-rose-200 selection:text-rose-800 flex flex-col justify-between">
         
@@ -60,6 +60,6 @@ export default function App() {
         {/* Global Footer */}
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

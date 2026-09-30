@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Gift, Sparkles, Heart, ArrowRight, RotateCcw, PartyPopper } from 'lucide-react';
-import { BIRTHDAY_CONFIG } from '../config';
+import { BIRTHDAY_CONFIG, getPhoto } from '../config';
 import SmartImage from '../components/SmartImage';
 import { playPopSound, playSparkleSound, playCelebrationSound } from '../utils/audio';
 import { triggerFiveSecondConfettiRain, triggerCelebrationCannons, triggerHeartConfetti } from '../utils/confetti';
@@ -140,15 +140,15 @@ export default function FinalSurprisePage() {
             <div className="absolute -top-6 inset-x-8 h-12 flex justify-between items-end z-10 pointer-events-none">
               {/* Photo 1 Corner peeking */}
               <div className="w-12 h-14 bg-white rounded-t-md shadow-md border border-rose-300 -rotate-12 overflow-hidden">
-                <img src="/photos/1.jpg" alt="" className="w-full h-full object-cover opacity-85" />
+                <img src={getPhoto("1.jpg")} alt="" className="w-full h-full object-cover opacity-85" />
               </div>
               {/* Photo 5 Corner peeking */}
               <div className="w-14 h-16 bg-white rounded-t-md shadow-lg border border-amber-300 rotate-6 overflow-hidden">
-                <img src="/photos/5.jpg" alt="" className="w-full h-full object-cover opacity-90" />
+                <img src={getPhoto("5.jpg")} alt="" className="w-full h-full object-cover opacity-90" />
               </div>
               {/* Photo 3 Corner peeking */}
               <div className="w-12 h-14 bg-white rounded-t-md shadow-md border border-rose-300 rotate-15 overflow-hidden">
-                <img src="/photos/3.jpg" alt="" className="w-full h-full object-cover opacity-85" />
+                <img src={getPhoto("3.jpg")} alt="" className="w-full h-full object-cover opacity-85" />
               </div>
             </div>
 
