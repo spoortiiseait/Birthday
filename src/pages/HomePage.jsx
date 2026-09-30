@@ -108,10 +108,10 @@ export default function HomePage() {
               {/* Exactly ONE single photo 5.jpg rendered with object-fit: contain + blurred background */}
               <SmartImage
                 src={BIRTHDAY_CONFIG.heroPhoto}
-                alt="Chethan & Pooja"
+                alt="Chetan & Pooja"
                 containerClassName="w-full h-full rounded-[2.2rem]"
                 className="w-full h-full"
-                fallbackTitle="Chethan & Pooja"
+                fallbackTitle="Chetan & Pooja"
               />
             </div>
           </div>

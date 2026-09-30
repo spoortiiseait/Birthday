@@ -139,7 +139,7 @@ export default function OurLoveStoryPage() {
                 {item.caption}
               </span>
               <span className="text-[11px] text-slate-400 font-medium uppercase tracking-wider block">
-                Chethan & Pooja ❤️
+                Chetan & Pooja ❤️
               </span>
             </div>
           </motion.div>
@@ -304,7 +304,7 @@ export default function OurLoveStoryPage() {
                 </h3>
                 <p className="text-xs text-slate-500 mt-1 flex items-center justify-center gap-1">
                   <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500" />
-                  Chethan & Pooja • Forever Love
+                  Chetan & Pooja • Forever Love
                 </p>
               </div>
             </motion.div>

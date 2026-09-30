@@ -20,11 +20,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Required Footer Text: "Made with ❤️ by Pooja for Chethan" */}
+        {/* Required Footer Text: "Made with ❤️ by Pooja for Chetan" */}
         <p className="font-serif text-sm sm:text-base text-slate-800 font-medium flex items-center justify-center gap-1.5 flex-wrap">
           <span>Made with</span>
           <Heart className="w-4 h-4 fill-rose-500 text-rose-500 inline" />
-          <span>by <strong className="text-rose-600 font-bold">Pooja</strong> for <strong className="text-rose-600 font-bold">Chethan</strong></span>
+          <span>by <strong className="text-rose-600 font-bold">Pooja</strong> for <strong className="text-rose-600 font-bold">Chetan</strong></span>
         </p>
 
         {/* Back To Top Button */}

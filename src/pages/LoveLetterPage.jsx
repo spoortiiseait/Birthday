@@ -61,7 +61,7 @@ export default function LoveLetterPage() {
         <div className="flex items-center justify-between border-b border-rose-100 pb-4 mb-8">
           <span className="text-xs uppercase tracking-widest text-amber-700 font-bold flex items-center gap-1.5">
             <Sparkles className="w-3 h-3 text-amber-500" />
-            Chethan's Special Day
+            Chetan's Special Day
           </span>
           <span className="text-xs font-serif italic text-slate-400">
             With All My Love
@@ -131,7 +131,7 @@ export default function LoveLetterPage() {
               className="mt-6 p-4 rounded-2xl bg-rose-50 border border-rose-200 text-center"
             >
               <p className="font-serif text-sm text-rose-700 italic">
-                "Chethan, celebrating you today and loving you forever is my greatest joy in this world! ❤️"
+                "Chetan, celebrating you today and loving you forever is my greatest joy in this world! ❤️"
               </p>
             </motion.div>
           )}

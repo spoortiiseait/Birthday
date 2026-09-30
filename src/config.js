@@ -1,12 +1,12 @@
 export const BIRTHDAY_CONFIG = {
-  husbandName: "Chethan",
+  husbandName: "Chetan",
   wifeName: "Pooja",
   heroSubtitle: "From Your Loving Wife Pooja ❤️",
-  heroTitle: "Happy Birthday Chethan",
+  heroTitle: "Happy Birthday Chetan",
   
   // Hero center photo (Only 5.jpg)
   heroPhoto: "/photos/5.jpg",
-  heroCaption: "Chethan & Pooja ❤️",
+  heroCaption: "Chetan & Pooja ❤️",
 
   // 10 Photos Collection: 1-4 Solo, 5-10 Couple
   photos: [
@@ -22,13 +22,17 @@ export const BIRTHDAY_CONFIG = {
     { id: 10, url: "/photos/10.jpg", caption: "Always", tag: "Couple" },
   ],
 
-  // Chethan's Best (1-4)
-  chethansBest: [
+  // Chetan's Best (1-4)
+  chetansBest: [
     { id: 1, url: "/photos/1.jpg", caption: "Handsome" },
     { id: 2, url: "/photos/2.jpg", caption: "My King" },
     { id: 3, url: "/photos/3.jpg", caption: "Your Smile" },
     { id: 4, url: "/photos/4.jpg", caption: "My Love" },
   ],
+  // backwards compatibility
+  get chethansBest() {
+    return this.chetansBest;
+  },
 
   // Our Love Story (5-10) with mixed frames
   ourLoveStory: [
@@ -42,7 +46,7 @@ export const BIRTHDAY_CONFIG = {
 
   // Love Letter (Page 6)
   loveLetter: {
-    salutation: "My Dearest Chethan,",
+    salutation: "My Dearest Chetan,",
     content: "On your special day I want to tell you how much you mean to me. You are my everything. Happy Birthday my love!",
     signOff: "- Your Pooja",
     stampText: "Sealed with Love ❤️",
@@ -56,7 +60,7 @@ export const BIRTHDAY_CONFIG = {
     { id: 8, url: "/photos/8.jpg", message: "I Love Us" },
     { id: 9, url: "/photos/9.jpg", message: "Always & Forever" },
   ],
-  surpriseFinalText: "I LOVE YOU CHETHAN - FOREVER YOURS POOJA",
+  surpriseFinalText: "I LOVE YOU CHETAN - FOREVER YOURS POOJA",
 
-  footer: "Made with ❤️ by Pooja for Chethan",
+  footer: "Made with ❤️ by Pooja for Chetan",
 };

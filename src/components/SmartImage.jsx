@@ -35,7 +35,7 @@ export default function SmartImage({
             {fallbackTitle}
           </span>
           <span className="text-[10px] text-rose-400 mt-0.5">
-            Chethan & Pooja ❤️
+            Chetan & Pooja ❤️
           </span>
         </div>
       ) : (

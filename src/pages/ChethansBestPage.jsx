@@ -33,7 +33,7 @@ export default function ChethansBestPage() {
           <Sparkles className="w-3.5 h-3.5 text-amber-500" />
         </span>
         <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-black text-slate-800 tracking-tight">
-          Chethan's Best
+          Chetan's Best
         </h1>
         <p className="font-serif text-sm sm:text-base text-rose-600 mt-2 italic">
           Every handsome smile that makes my heart flutter 💕
@@ -42,7 +42,7 @@ export default function ChethansBestPage() {
 
       {/* 2x2 White Polaroid Frames with Pink Shadows & Contain (No Crop) */}
       <div className="max-w-4xl w-full grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 p-2">
-        {BIRTHDAY_CONFIG.chethansBest.map((item, index) => (
+        {BIRTHDAY_CONFIG.chetansBest.map((item, index) => (
           <motion.div
             key={item.id}
             initial={{ opacity: 0, y: 20 }}
@@ -63,7 +63,7 @@ export default function ChethansBestPage() {
                 aspectRatio="aspect-[4/5]"
                 containerClassName="w-full h-full rounded-xl"
                 className="w-full h-full"
-                fallbackTitle={`Chethan #${item.id}`}
+                fallbackTitle={`Chetan #${item.id}`}
               />
 
               {/* View Overlay */}
@@ -128,7 +128,7 @@ export default function ChethansBestPage() {
                 </h3>
                 <p className="text-xs text-slate-500 mt-1 flex items-center justify-center gap-1">
                   <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500" />
-                  Pooja's Handsome Husband Chethan
+                  Pooja's Handsome Husband Chetan
                 </p>
               </div>
             </motion.div>

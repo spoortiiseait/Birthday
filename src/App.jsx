@@ -46,6 +46,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/cake" element={<CakePage />} />
+            <Route path="/chetans-best" element={<ChethansBestPage />} />
             <Route path="/chethans-best" element={<ChethansBestPage />} />
             <Route path="/our-story" element={<OurLoveStoryPage />} />
             <Route path="/collage" element={<CollageWallPage />} />

@@ -87,7 +87,7 @@ export default function FinalSurprisePage() {
           <PartyPopper className="w-3.5 h-3.5 text-amber-500" />
         </span>
         <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-black text-slate-800 tracking-tight">
-          A Special Gift For Chethan
+          A Special Gift For Chetan
         </h1>
         <p className="font-serif text-sm sm:text-base text-rose-600 mt-2 italic">
           Every memory with you is wrapped with all my love ❤️
@@ -109,7 +109,7 @@ export default function FinalSurprisePage() {
           >
             <span className="font-serif text-sm sm:text-base font-bold text-rose-700 flex items-center gap-2">
               <Gift className="w-4 h-4 text-rose-500 animate-bounce" />
-              A Special Gift For You Chethan - Click to Open! 🎁
+              A Special Gift For You Chetan - Click to Open! 🎁
               <Sparkles className="w-4 h-4 text-amber-500" />
             </span>
           </motion.div>
@@ -174,7 +174,7 @@ export default function FinalSurprisePage() {
               {/* Monogram Badge */}
               <div className="relative z-10 px-4 py-2.5 rounded-2xl bg-white/95 border border-rose-200 shadow-md text-center backdrop-blur-md">
                 <span className="font-serif text-sm font-bold text-rose-700 block">
-                  Chethan ❤️ Pooja
+                  Chetan ❤️ Pooja
                 </span>
                 <span className="text-[10px] text-amber-700 uppercase tracking-widest font-mono">
                   Birthday Box
@@ -349,7 +349,7 @@ export default function FinalSurprisePage() {
                     "{currentMemory.message}"
                   </span>
                   <span className="text-[11px] uppercase tracking-widest text-amber-800 font-semibold block mt-1">
-                    Chethan & Pooja • Forever Love ❤️
+                    Chetan & Pooja • Forever Love ❤️
                   </span>
                 </div>
               </div>
@@ -391,7 +391,7 @@ export default function FinalSurprisePage() {
                 </h2>
 
                 <p className="font-serif text-sm sm:text-base text-slate-600 italic mt-3">
-                  "Happiest Birthday to the king of my heart, my handsome husband Chethan!"
+                  "Happiest Birthday to the king of my heart, my handsome husband Chetan!"
                 </p>
 
                 <div className="mt-6 flex justify-center">

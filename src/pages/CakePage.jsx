@@ -42,7 +42,7 @@ export default function CakePage() {
       setIsCakeCut(true);
       setIsPlayingTune(true);
       triggerCelebrationCannons();
-      setMessage("🍰 Happy Birthday Chethan! Here is the sweetest slice for you! 💖");
+      setMessage("🍰 Happy Birthday Chetan! Here is the sweetest slice for you! 💖");
 
       playHappyBirthdayTune(() => {
         setIsPlayingTune(false);
@@ -66,7 +66,7 @@ export default function CakePage() {
           <Sparkles className="w-3.5 h-3.5 text-amber-500" />
         </span>
         <h2 className="font-serif text-3xl sm:text-5xl font-bold text-slate-800">
-          Happy Birthday Chethan
+          Happy Birthday Chetan
         </h2>
         <p className="font-serif text-sm sm:text-base text-rose-600 mt-2 italic">
           Make a wish, blow your candle, and cut the cake 🎂
@@ -188,7 +188,7 @@ export default function CakePage() {
               <div className="absolute inset-0 flex items-center justify-center pt-2">
                 <span className="font-serif text-xs font-bold uppercase tracking-widest text-white drop-shadow flex items-center gap-1">
                   <Heart className="w-3.5 h-3.5 text-white fill-white inline" />
-                  Chethan
+                  Chetan
                   <Heart className="w-3.5 h-3.5 text-white fill-white inline" />
                 </span>
               </div>
@@ -206,7 +206,7 @@ export default function CakePage() {
               {/* Cake Text: "Happy Birthday Chethan" ONLY */}
               <div className="flex flex-col items-center justify-center my-auto">
                 <span className="font-script text-2xl sm:text-3xl text-rose-600 drop-shadow-sm font-bold">
-                  Happy Birthday Chethan
+                  Happy Birthday Chetan
                 </span>
                 <span className="text-[10px] tracking-widest text-amber-700 uppercase font-semibold">
                   With All My Love ❤️ Pooja
@@ -233,7 +233,7 @@ export default function CakePage() {
                 <div className="flex flex-col items-center">
                   <span className="text-xl">🍰</span>
                   <span className="text-[10px] font-bold text-rose-600 uppercase mt-0.5">
-                    Chethan's Bite
+                    Chetan's Bite
                   </span>
                 </div>
               </motion.div>
@@ -288,10 +288,10 @@ export default function CakePage() {
       {/* Navigation to next page */}
       <div className="mt-8">
         <Link
-          to="/chethans-best"
+          to="/chetans-best"
           className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-white border border-rose-200 text-rose-600 font-semibold text-xs sm:text-sm hover:bg-rose-50 shadow-sm transition-all group"
         >
-          <span>See Chethan's Best Photos</span>
+          <span>See Chetan's Best Photos</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </Link>
       </div>

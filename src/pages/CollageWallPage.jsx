@@ -45,7 +45,7 @@ export default function CollageWallPage() {
 
       const dataUrl = canvas.toDataURL('image/png');
       const link = document.createElement('a');
-      link.download = 'Chethan-and-Pooja-Collage-Wall.png';
+      link.download = 'Chetan-and-Pooja-Collage-Wall.png';
       link.href = dataUrl;
       link.click();
 
@@ -118,7 +118,7 @@ export default function CollageWallPage() {
         <div className="text-center mb-10 relative z-10">
           <div className="inline-block px-6 py-2 rounded-2xl bg-white/95 shadow-sm border border-rose-200">
             <span className="font-serif text-lg sm:text-xl font-bold text-slate-800">
-              Chethan & Pooja • Forever Memories
+              Chetan & Pooja • Forever Memories
             </span>
           </div>
         </div>

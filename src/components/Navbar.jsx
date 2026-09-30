@@ -16,7 +16,7 @@ export default function Navbar({ isMusicPlaying, setIsMusicPlaying }) {
   const navLinks = [
     { label: "Home", path: "/" },
     { label: "Cake", path: "/cake" },
-    { label: "Chethan's Best", path: "/chethans-best" },
+    { label: "Chetan's Best", path: "/chetans-best" },
     { label: "Our Love Story", path: "/our-story" },
     { label: "Collage Wall", path: "/collage" },
     { label: "Love Letter", path: "/letter" },
@@ -42,7 +42,7 @@ export default function Navbar({ isMusicPlaying, setIsMusicPlaying }) {
           </div>
           <div className="flex flex-col">
             <span className="font-serif text-sm md:text-base font-bold text-slate-800 tracking-wide">
-              Chethan & Pooja
+              Chetan & Pooja
             </span>
             <span className="text-[10px] text-rose-500 flex items-center gap-1 font-medium tracking-wider uppercase">
               Birthday Edition <Heart className="w-2.5 h-2.5 fill-rose-500 text-rose-500 inline" />
